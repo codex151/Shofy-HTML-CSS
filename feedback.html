@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+
+  <link rel="stylesheet" href="CSS/index.css">
+
+  <link rel="stylesheet" href="CSS/feedback.css">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- main body -->
+<main>
+  <!-- Header section -->
+
+  <section id="header">
+
+  <header class="header">
+    <!-- First row with 1 column -->
+    <div class="first-row">Buy on Shofy</div>
+    
+    <!-- Second row with 3 columns -->
+    <div class="second-row">
+     
+      <div class="logo">
+        <i class="fa fa-bars" style="font-size: xx-large; margin-right: 20px;"></i>
+        <img src="LOGO/shofy.webp" alt="Shofy Logo">
+        SHOFY
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search products, brands & designs">
+        <button><i class="fa fa-search"></i></button>
+      </div>
+      <div class="user-menu">
+        <button class="notification"><i class="fa fa-bell"></i></button>
+          <div><i class="fa fa-user" style="font-size: xx-large;"></i></div> 
+          <img src="IMAGES/spec2.webp" alt="Profile Picture" class="profile-pic">
+      
+    </div>
+    
+    <!-- Last row with navigation -->
+    <div class="nav-row">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="new.html">New</a></li>
+          <li><a href="favourite.html">Favourite</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</section>
+
+<!-- Main content section -->
+
+<section id="feedback">
+
+  <form action="response.html">
+    <article>
+      <p>it's very nice to hear from you.</p>
+  
+      <label for="mail">Write your email please</label><br>
+      <input type="email" name="email" id="mail" required placeholder="email">
+    </article>
+
+    <article>
+      <!-- <p>What are you reporting?</p>
+  
+      <div class="checkbox-container">
+        <div class="checkbox-one">
+          `<input type="checkbox" id="transaction">
+        <label for="transaction">Transaction failure</label>
+        </div>
+        
+      </div>  
+       
+      
+      <div class="checkbox-container">
+        <div class="checkbox-two">
+          <input type="checkbox" name="" id="delivery">
+        <label for="delivery">Product not delivered</label>
+        </div>
+        
+      </div>
+      
+      <div class="checkbox-container">
+        <div class="checkbox-three">
+          <input type="checkbox" name="" id="question">
+          <label for="question">I have a question</label>
+        </div>
+        
+      </div>
+      
+      <div class="checkbox-container">
+        <div class="checkbox-four">
+          <input type="checkbox" name="" id="comment">
+          <label for="comment">I want say something</label>
+        </div>
+        
+      </div> -->
+      <div class="checkbox-container">
+         <label class="checkbox-one"><input type="checkbox" required> Checkbox 1</label><br>
+         <label class="checkbox-two"><input type="checkbox" required> Checkbox 2</label><br>
+         <label class="checkbox-three"><input type="checkbox" required> Checkbox 3</label><br>
+         <label class="checkbox-four"><input type="checkbox" required> Checkbox-four</label><br>
+
+    </article>
+
+    <article>
+      <p>Write a short description</p>
+      <input type="text" name="note" id="description">
+    </article>
+
+    <article>
+      <input type="submit" value="Send" class="submit">
+    </article>
+  </form>
+
+    
+</section>
+
+</main>
+
+<!-- Footer section -->
+
+<section id="footer">
+  <footer>
+    <div class="footer-container">
+
+      <!-- <div style="font-size: 30px; font-weight: bold;">SHOFY <br> Always The best</div> -->
+
+      <div>
+        <div>
+          NEW TO SHOFY?<br>Subscribe to our newsletter to get update on our latest offers!
+        </div>
+        <form action="registeration.html">
+          <div class=form-container>
+            <div class="box">
+              <div class="input-box">
+                <img src="LOGO/email-icon.png" alt="email image-container">
+                <input type="email" name="email" id="email" placeholder="Enter Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="button-box">
+            <input type="submit" value="Sign Up">
+          </div>
+          
+        </form>
+      </div>
+
+      <div class="social">
+        Contact us @
+        <a href="">
+          <img src="LOGO/download.jpg" alt="logo" class="social-logo">
+        </a>
+        <a href="">
+          <img src="LOGO/x.png" alt="logo" class="social-logo">
+        </a>
+        <a href="">
+          <img src="LOGO/facebook.jpg" alt="logo" class="social-logo">
+        </a>
+      </div>
+
+    </div>
+    <hr>
+    <span style="font-size: 12px;">&COPY; CopyRight 2025 All right reserved</span>
+    
+
+  
+  </footer>
+</section>
+  
+</body>
+</html>

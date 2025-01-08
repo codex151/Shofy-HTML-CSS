@@ -477,10 +477,10 @@ form img{
 /* Responsive Design @ 768px*/
 @media (max-width: 768px) {
   body{
-    height: 280vh;
+    height: 320vh;
   }
   main{
-    height: 260vh;
+    height: 300vh;
   }
   .header {
  font-size: 1em;
@@ -578,10 +578,10 @@ form img{
 /* Responsive Design @ 640px*/
 @media (max-width: 640px) {
   body{
-    height: 170vh;
+    height: 220vh;
   }
   main{
-    height: 150vh;
+    height: 200vh;
   }
   .header {
   grid-template-columns: 1fr 1fr 1fr; 
@@ -743,10 +743,10 @@ form img{
 /* Responsive Design @ 375px*/
 @media (max-width: 375px) {
   body{
-    height: 120vh;
+    height: 170vh;
   }
   main{
-    height: 100vh;
+    height: 150vh;
   }
   .header {
   grid-template-columns: 1fr 1fr 1fr; 

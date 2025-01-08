@@ -16,3 +16,27 @@ main{
 #add{
   margin-left: 10px;
 }
+@media (max-width: 768px){
+  body{
+  height: 200vh;
+}
+main{
+  height: 180vh;
+}
+}
+@media (max-width: 640px){
+  body{
+  height: 1700vh;
+}
+main{
+  height: 150vh;
+}
+}
+@media (max-width: 375px){
+  body{
+  height: 135vh;
+}
+main{
+  height: 130vh;
+}
+}
